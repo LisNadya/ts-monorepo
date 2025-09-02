@@ -5,7 +5,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:sdk": "pnpm --filter sdk exec tsc --watch",
+    "start:app": "pnpm --filter app dev"
   },
   "keywords": [],
   "author": "",
